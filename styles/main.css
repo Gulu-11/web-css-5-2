@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #07081A;
+}
+.navHeader {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 64px;
+}
+.navDiv {
+    display: flex;
+    gap: 667px;
+}
+.cloudoDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.cloudoImg {
+    width: 32px;
+    height: 36px;
+}
+.cloudoP {
+    color: white;
+    font-weight: 500;
+}
+.headerMenuDiv {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+a {
+    text-decoration: none;
+}
+.greenAnchor {
+    color: #8CE900;
+}
+.whiteAnchor {
+    color: white;
+}
+
+.mainConteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+.botDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    height: 320px;
+}
+.botP{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+    color: white;
+}
+.projectDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    height: 170px;
+    background-color: #242642;
+    padding: 40px 72px;
+}
+.contentDiv {
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 90px;
+}
+.P400 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #8CE900;
+}
+.projectP {
+    font-size: 20px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.footerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    height: 184px;
+    margin-bottom: 64px;
+}
+.footerCloudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 264px;
+    height: 100px;
+}
+.FootercloudoDiv {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    gap: 12px;
+}
+.cloudoDesc {
+    color: white;
+    font-size: 14px;
+    color: #C0C0C0;
+}
+.footerMenudiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
